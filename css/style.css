@@ -1,0 +1,146 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+header, nav, main, aside, footer {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: white;
+  padding: 2rem;
+}
+
+main img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+aside {
+  background-color: #f0f0f0;
+  border-left: 4px solid #ccc;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+} */
+
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout geral */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0 1rem;
+}
+
+header, nav, main, aside, footer {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #294D61;
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: #cde6f5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+main img {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+
+/* Publicidade */
+aside {
+  background-color: #eef2f5;
+  border-left: 4px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #294D61;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1.2rem;
+  border-radius: 0 0 8px 8px;
+  margin-top: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  header, nav, main, aside, footer {
+    padding: 0.8rem;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
